@@ -90,12 +90,13 @@ a:-webkit-any-link {
 }
 #announcement{
     display: flex;
+    flex-direction: column;
     width: 23%;
     height: 100px;
     background-color: white;
     margin: 1%;
 }
-.guide-button{
+#guide-button{
+    width: 80%;
     background-color: yellow;
-    width: 90%;
 }
