@@ -83,7 +83,7 @@ a:-webkit-any-link {
     margin: 1%;
     flex-direction: column;
 }
-#first-guide{
+.guide{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -109,6 +109,12 @@ a:-webkit-any-link {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-#announcement-img{
-    
+.suggestions{
+    height: 280px;
+    width: 90%;
+    background-color: white;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
