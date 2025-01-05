@@ -1,38 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clone Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/favicon.ico">
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header>
-        <section id="header-nav-dados">
-            <div id="logo">
-                <img src="" alt="">
+        <div class="logo">Amazon</div>
+        <div class="barra-pesquisa">
+            <input type="text" placeholder="Buscar">
+            <button>Pesquisar</button>
+        </div>
+        <div class="links-cabecalho">
+            <a href="#">Entrar</a>
+            <a href="#">Pedidos</a>
+            <a href="#">Carrinho</a>
+        </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav class="navegacao">
+        <ul>
+            <li><a href="#">Todos</a></li>
+            <li><a href="#">Mais Vendidos</a></li>
+            <li><a href="#">Ofertas do Dia</a></li>
+            <li><a href="#">Atendimento ao Cliente</a></li>
+            <li><a href="#">Novidades</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="principal">
+        <section class="banner">
+            <img src="https://via.placeholder.com/1200x400" alt="Banner">
+        </section>
+
+        <section class="produtos">
+            <div class="produto">
+                <img src="https://via.placeholder.com/150" alt="Produto 1">
+                <p>Produto 1</p>
+                <span>R$ 20,99</span>
             </div>
-            <div id="localizacao">
-                <button>Atualizar ceep</button>
+            <div class="produto">
+                <img src="https://via.placeholder.com/150" alt="Produto 2">
+                <p>Produto 2</p>
+                <span>R$ 45,99</span>
             </div>
-            <div id="barra-pesquisa">
-                <form action="" method="get">
-                    <select name="Oi" id="">
-                        <option value="">teste</option>
-                        <option value="">dpos</option>
-                    </select>
-                    <input type="search">
-                    <input type="submit" value="">
-                </form>
-            </div>
-            <div id="login"></div>
-            <div id="devolução">
-                <button>devolução</button>
-            </div>
-            <div id="carrinho">
-                <button>carrinho</button>
+            <div class="produto">
+                <img src="https://via.placeholder.com/150" alt="Produto 3">
+                <p>Produto 3</p>
+                <span>R$ 15,99</span>
             </div>
         </section>
-        <section id="header-nav-setores"></section>
-    </header>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>© 2025 Clone Amazon - Todos os Direitos Reservados</p>
+    </footer>
 </body>
 </html>
